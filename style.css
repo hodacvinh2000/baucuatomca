@@ -1,0 +1,57 @@
+.chude {
+    text-align: center;
+    font-family: 'Neonderthaw', cursive;
+    font-size: larger;
+    color: red;
+}
+#xucxac {
+  position: relative;
+  margin-left: 500px;
+  margin-top: 250px;
+}
+.topimg {
+  position: absolute;
+  bottom: 130px;
+  left: 70px;
+}
+#xucxac img {
+  margin: 10px;
+}
+.maudo {
+  z-index: 0;
+  left: 443px;
+  top: 121px;
+  position: absolute;
+  width: 450px;
+  border: 5px solid red;
+  border-radius: 50%;
+}
+.open {
+  position: absolute;
+  top: 323px;
+  left: 599px;
+  width: 150px;
+  height: 50px;
+  border: 5px solid #FF0033;
+  background: #CCFF00;
+  border-radius: 10px;
+  display: none;
+  color: red;
+  font-weight: bolder;
+}
+.reload {
+  position: absolute;
+  top: 586px;
+  left: 519px;
+  width: 300px;
+  height: 50px;
+  color: red;
+  font-weight: 900;
+  font-size: 30px;
+  background-color: gold;
+  border: 5px solid;
+  border-radius: 10px;
+}
+body {
+  background-color: #2fffaf;
+}
