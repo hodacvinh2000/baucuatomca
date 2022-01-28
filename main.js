@@ -18,7 +18,7 @@ function reload() {
     // sau 5s dung x sau 5s, 7s dung y sau 4s, 10s dung z sau 5s
     action("none");
     var intervalID;
-    var time = 5000;
+    var time = 1000;
     intervalID  = setInterval(load, 50);
     setTimeout(function() {stop(intervalID)}, time);
     $('#reload').prop('disabled',true);
